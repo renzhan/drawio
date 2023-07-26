@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-26T10:32:11.901Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="mrmnbwTZq8z9G4nOIy-p" version="21.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-26T11:40:50.982Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="IhUed7bxK4u6kD_ufhRC" version="21.6.5" type="github">
   <diagram name="第 1 页" id="VAXkkfN3yXfzUiDOJ94b">
     <mxGraphModel dx="1434" dy="758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -23,14 +23,17 @@
         <mxCell id="MwvR7IS0rDGGBposnLcL-2" value="文档" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
           <mxGeometry x="55" y="80" width="50" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="MwvR7IS0rDGGBposnLcL-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MwvR7IS0rDGGBposnLcL-7" target="MwvR7IS0rDGGBposnLcL-1">
+        <mxCell id="MwvR7IS0rDGGBposnLcL-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MwvR7IS0rDGGBposnLcL-7" target="MwvR7IS0rDGGBposnLcL-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="MwvR7IS0rDGGBposnLcL-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="MwvR7IS0rDGGBposnLcL-7" target="MwvR7IS0rDGGBposnLcL-8">
+        <mxCell id="MwvR7IS0rDGGBposnLcL-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="MwvR7IS0rDGGBposnLcL-7" target="MwvR7IS0rDGGBposnLcL-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MwvR7IS0rDGGBposnLcL-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="MwvR7IS0rDGGBposnLcL-7" target="MwvR7IS0rDGGBposnLcL-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MwvR7IS0rDGGBposnLcL-7" value="分片" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="160" y="120" width="80" height="40" as="geometry" />
+          <mxGeometry x="220" y="120" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="MwvR7IS0rDGGBposnLcL-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="MwvR7IS0rDGGBposnLcL-8" target="MwvR7IS0rDGGBposnLcL-11">
           <mxGeometry relative="1" as="geometry" />
@@ -43,6 +46,12 @@
         </mxCell>
         <mxCell id="MwvR7IS0rDGGBposnLcL-14" value="存Ceph" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="160" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MwvR7IS0rDGGBposnLcL-18" value="存ES" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="120" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MwvR7IS0rDGGBposnLcL-22" value="ES内容：&lt;br&gt;&lt;p style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;AgentId&lt;br&gt;文档Id&lt;br style=&quot;border-color: var(--border-color); text-align: center;&quot;&gt;文档名&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;分片Id&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;分片内容&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); text-align: center;&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="490" y="140" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
