@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-07-27T03:52:07.109Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="eCLsQuqZKez4pX7b_MSE" version="21.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-27T05:20:10.673Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="ffOGuQ14zF6vuyqpyxiH" version="21.6.5" type="github">
   <diagram name="第 1 页" id="VAXkkfN3yXfzUiDOJ94b">
-    <mxGraphModel dx="1434" dy="1927" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="1927" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -245,6 +245,27 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="300" y="250" as="sourcePoint" />
             <mxPoint x="350" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JsQhKpP70sVBwvGAXee8-22" value="文档QA结构图" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="33" y="86" width="115.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JsQhKpP70sVBwvGAXee8-23" value="离线&lt;br&gt;服务" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="14.5" y="230" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JsQhKpP70sVBwvGAXee8-28" value="在线&lt;br&gt;服务" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="14.5" y="460" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JsQhKpP70sVBwvGAXee8-29" value="文档问答" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;gradientColor=#ffd966;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="92.25" y="455" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JsQhKpP70sVBwvGAXee8-31" value="QA问答" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;gradientColor=#ffd966;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="200" y="455" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JsQhKpP70sVBwvGAXee8-32" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="20" y="420" as="sourcePoint" />
+            <mxPoint x="470" y="420" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
