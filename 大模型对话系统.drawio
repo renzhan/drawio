@@ -1,9 +1,33 @@
-<mxfile host="app.diagrams.net" modified="2023-08-01T06:10:32.510Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" version="21.6.5" etag="L30Vy2KEcLmRvvwA6k8S" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-04T00:10:51.310Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="IyLZ-xxe5pYtFBMIsGk7" version="21.6.6" type="github">
   <diagram name="第 1 页" id="2IsAd4zUsnXnslO65fH5">
-    <mxGraphModel>
+    <mxGraphModel dx="928" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="1KBwJReeg2usYrvpEcQp-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="1KBwJReeg2usYrvpEcQp-1" target="1KBwJReeg2usYrvpEcQp-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1KBwJReeg2usYrvpEcQp-1" value="问句补全" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="80" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1KBwJReeg2usYrvpEcQp-6" value="用户知识库" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="240" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1KBwJReeg2usYrvpEcQp-9" value="开放域问答" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="350" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1KBwJReeg2usYrvpEcQp-14" value="Prompt管理" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="360" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1KBwJReeg2usYrvpEcQp-20" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="1KBwJReeg2usYrvpEcQp-17" target="1KBwJReeg2usYrvpEcQp-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1KBwJReeg2usYrvpEcQp-17" value="领域意图&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;分类" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="160" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1KBwJReeg2usYrvpEcQp-18" value="技能" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="80" width="80" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
