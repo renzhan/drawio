@@ -1,0 +1,380 @@
+<mxfile host="Electron" modified="2023-08-27T08:35:52.424Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.6.5 Chrome/114.0.5735.243 Electron/25.3.1 Safari/537.36" etag="EYv9gPclQQCmofg8P5ee" version="21.6.5" type="device">
+  <diagram name="第 1 页" id="9ckIl5hYab5MIgVMosKW">
+    <mxGraphModel dx="1098" dy="648" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="SOKK0idRKGvPmwZtAwAa-120" value="" style="rounded=1;whiteSpace=wrap;html=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+          <mxGeometry x="350" y="720" width="280" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="SOKK0idRKGvPmwZtAwAa-119" value="" style="rounded=1;whiteSpace=wrap;html=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+          <mxGeometry x="30" y="700" width="240" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="SOKK0idRKGvPmwZtAwAa-118" value="" style="rounded=1;whiteSpace=wrap;html=1;fillStyle=cross-hatch;" vertex="1" parent="1">
+          <mxGeometry x="30" y="835" width="240" height="195" as="geometry" />
+        </mxCell>
+        <mxCell id="SOKK0idRKGvPmwZtAwAa-1" value="网络爬虫" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="80" y="140" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SOKK0idRKGvPmwZtAwAa-3" value="检索引擎" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="200" y="140" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SOKK0idRKGvPmwZtAwAa-4" value="Milvus" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="320" y="260" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SOKK0idRKGvPmwZtAwAa-5" value="Hbase" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="200" y="260" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SOKK0idRKGvPmwZtAwAa-6" value="ES" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="80" y="260" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SOKK0idRKGvPmwZtAwAa-7" value="实时问答" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="80" y="80" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SOKK0idRKGvPmwZtAwAa-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SOKK0idRKGvPmwZtAwAa-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="120" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SOKK0idRKGvPmwZtAwAa-14" value="Query" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="SOKK0idRKGvPmwZtAwAa-11">
+          <mxGeometry x="-0.1736" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SOKK0idRKGvPmwZtAwAa-8" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="440" width="20" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SOKK0idRKGvPmwZtAwAa-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="SOKK0idRKGvPmwZtAwAa-12" target="SOKK0idRKGvPmwZtAwAa-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SOKK0idRKGvPmwZtAwAa-17" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="SOKK0idRKGvPmwZtAwAa-16">
+          <mxGeometry x="-0.35" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SOKK0idRKGvPmwZtAwAa-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="SOKK0idRKGvPmwZtAwAa-12" target="SOKK0idRKGvPmwZtAwAa-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SOKK0idRKGvPmwZtAwAa-12" value="是否&lt;br&gt;爬取命令" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="440" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SOKK0idRKGvPmwZtAwAa-13" value="意图分类模型" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="410" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SOKK0idRKGvPmwZtAwAa-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="SOKK0idRKGvPmwZtAwAa-15" target="SOKK0idRKGvPmwZtAwAa-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SOKK0idRKGvPmwZtAwAa-15" value="爬取任务&lt;br&gt;管理" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="440" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SOKK0idRKGvPmwZtAwAa-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="SOKK0idRKGvPmwZtAwAa-18" target="SOKK0idRKGvPmwZtAwAa-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SOKK0idRKGvPmwZtAwAa-22" value="有" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="SOKK0idRKGvPmwZtAwAa-21">
+          <mxGeometry x="-0.1" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SOKK0idRKGvPmwZtAwAa-27" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="SOKK0idRKGvPmwZtAwAa-18" target="SOKK0idRKGvPmwZtAwAa-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SOKK0idRKGvPmwZtAwAa-35" value="知识库状态回复" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="SOKK0idRKGvPmwZtAwAa-27">
+          <mxGeometry x="-0.4308" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SOKK0idRKGvPmwZtAwAa-18" value="有&lt;br&gt;未下载数据" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="440" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SOKK0idRKGvPmwZtAwAa-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="SOKK0idRKGvPmwZtAwAa-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SOKK0idRKGvPmwZtAwAa-38" value="爬取内容" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="SOKK0idRKGvPmwZtAwAa-29">
+          <mxGeometry x="-0.21" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SOKK0idRKGvPmwZtAwAa-43" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="SOKK0idRKGvPmwZtAwAa-20" target="SOKK0idRKGvPmwZtAwAa-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SOKK0idRKGvPmwZtAwAa-20" value="网络爬虫" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="440" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SOKK0idRKGvPmwZtAwAa-23" value="结束" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="600" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SOKK0idRKGvPmwZtAwAa-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="SOKK0idRKGvPmwZtAwAa-24" target="SOKK0idRKGvPmwZtAwAa-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SOKK0idRKGvPmwZtAwAa-24" value="实时问答" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="520" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SOKK0idRKGvPmwZtAwAa-36" value="存储引擎" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="320" y="140" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SOKK0idRKGvPmwZtAwAa-44" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="SOKK0idRKGvPmwZtAwAa-37" target="SOKK0idRKGvPmwZtAwAa-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SOKK0idRKGvPmwZtAwAa-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="SOKK0idRKGvPmwZtAwAa-37" target="SOKK0idRKGvPmwZtAwAa-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SOKK0idRKGvPmwZtAwAa-37" value="存储引擎" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="520" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SOKK0idRKGvPmwZtAwAa-41" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;爬取内容：&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;爬取任务Id&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;关键词&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;AgentId&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;RobotId&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;TenantCode&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;爬取时间&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Source【数据来源】&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Url&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Content&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Media&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="600" y="420" width="120" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="SOKK0idRKGvPmwZtAwAa-42" value="知识统计" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="520" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SOKK0idRKGvPmwZtAwAa-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="SOKK0idRKGvPmwZtAwAa-45" target="SOKK0idRKGvPmwZtAwAa-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SOKK0idRKGvPmwZtAwAa-48" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="SOKK0idRKGvPmwZtAwAa-47">
+          <mxGeometry x="-0.1632" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SOKK0idRKGvPmwZtAwAa-45" value="爬取任务&lt;br&gt;是否完成" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="600" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SOKK0idRKGvPmwZtAwAa-49" value="统计报表" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="200" y="80" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SOKK0idRKGvPmwZtAwAa-50" value="知识维护" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="320" y="80" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SOKK0idRKGvPmwZtAwAa-51" value="应用层" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="10" y="90" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SOKK0idRKGvPmwZtAwAa-52" value="引擎" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="10" y="145" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SOKK0idRKGvPmwZtAwAa-53" value="存储层" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="10" y="290" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SOKK0idRKGvPmwZtAwAa-94" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SOKK0idRKGvPmwZtAwAa-54" target="SOKK0idRKGvPmwZtAwAa-93">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SOKK0idRKGvPmwZtAwAa-102" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="SOKK0idRKGvPmwZtAwAa-54" target="SOKK0idRKGvPmwZtAwAa-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SOKK0idRKGvPmwZtAwAa-103" value="需要爬取的&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;关键词" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="SOKK0idRKGvPmwZtAwAa-102">
+          <mxGeometry x="-0.1" relative="1" as="geometry">
+            <mxPoint x="-15" y="-6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SOKK0idRKGvPmwZtAwAa-106" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="SOKK0idRKGvPmwZtAwAa-54" target="SOKK0idRKGvPmwZtAwAa-98">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SOKK0idRKGvPmwZtAwAa-54" value="爬取任务管理" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="120" y="760" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SOKK0idRKGvPmwZtAwAa-55" value="爬取任务管理" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="30" y="700" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SOKK0idRKGvPmwZtAwAa-60" value="Mysql" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="80" y="320" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SOKK0idRKGvPmwZtAwAa-61" value="存储引擎" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="340" y="730" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SOKK0idRKGvPmwZtAwAa-62" value="" style="shape=link;html=1;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="297" y="1030" as="sourcePoint" />
+            <mxPoint x="298" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SOKK0idRKGvPmwZtAwAa-63" value="Kafka" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="SOKK0idRKGvPmwZtAwAa-62">
+          <mxGeometry x="-0.02" y="6" relative="1" as="geometry">
+            <mxPoint x="6" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SOKK0idRKGvPmwZtAwAa-122" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="SOKK0idRKGvPmwZtAwAa-64" target="SOKK0idRKGvPmwZtAwAa-113">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SOKK0idRKGvPmwZtAwAa-64" value="源数据&lt;br&gt;解析" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="760" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SOKK0idRKGvPmwZtAwAa-70" value="网络爬虫" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="20" y="840" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SOKK0idRKGvPmwZtAwAa-71" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="SOKK0idRKGvPmwZtAwAa-86" target="SOKK0idRKGvPmwZtAwAa-66">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="900" as="sourcePoint" />
+            <mxPoint x="240" y="900" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SOKK0idRKGvPmwZtAwAa-104" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="SOKK0idRKGvPmwZtAwAa-66" target="SOKK0idRKGvPmwZtAwAa-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SOKK0idRKGvPmwZtAwAa-105" value="任务状态" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="SOKK0idRKGvPmwZtAwAa-104">
+          <mxGeometry x="-0.325" y="4" relative="1" as="geometry">
+            <mxPoint x="19" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SOKK0idRKGvPmwZtAwAa-66" value="爬虫管理" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="120" y="880" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SOKK0idRKGvPmwZtAwAa-74" value="百度搜索&lt;br&gt;scrapy" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="960" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SOKK0idRKGvPmwZtAwAa-75" value="百科爬取&lt;br&gt;scrapy" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="960" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SOKK0idRKGvPmwZtAwAa-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=2;" edge="1" parent="1" source="SOKK0idRKGvPmwZtAwAa-66">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="900" as="targetPoint" />
+            <mxPoint x="200" y="899.5" as="sourcePoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SOKK0idRKGvPmwZtAwAa-97" value="爬取结果" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="SOKK0idRKGvPmwZtAwAa-81">
+          <mxGeometry x="0.0616" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SOKK0idRKGvPmwZtAwAa-84" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="SOKK0idRKGvPmwZtAwAa-75" target="SOKK0idRKGvPmwZtAwAa-66">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="90" y="960" as="sourcePoint" />
+            <mxPoint x="140" y="910" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SOKK0idRKGvPmwZtAwAa-85" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="SOKK0idRKGvPmwZtAwAa-74">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="970" as="sourcePoint" />
+            <mxPoint x="170" y="920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SOKK0idRKGvPmwZtAwAa-86" value="源管理" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="880" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SOKK0idRKGvPmwZtAwAa-87" value="其他scrapy" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="960" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SOKK0idRKGvPmwZtAwAa-89" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="SOKK0idRKGvPmwZtAwAa-87" target="SOKK0idRKGvPmwZtAwAa-66">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="150" y="980" as="sourcePoint" />
+            <mxPoint x="200" y="930" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SOKK0idRKGvPmwZtAwAa-90" value="内容切片" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="840" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SOKK0idRKGvPmwZtAwAa-93" value="任务记录&lt;br&gt;Mysql" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="760" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SOKK0idRKGvPmwZtAwAa-98" value="ES检索&lt;br&gt;过滤" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="760" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SOKK0idRKGvPmwZtAwAa-107" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" target="SOKK0idRKGvPmwZtAwAa-54">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="150" y="710" as="sourcePoint" />
+            <mxPoint x="210" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SOKK0idRKGvPmwZtAwAa-108" value="关键词" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="SOKK0idRKGvPmwZtAwAa-107">
+          <mxGeometry x="-0.3333" y="2" relative="1" as="geometry">
+            <mxPoint x="18" y="3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SOKK0idRKGvPmwZtAwAa-134" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="SOKK0idRKGvPmwZtAwAa-109" target="SOKK0idRKGvPmwZtAwAa-133">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SOKK0idRKGvPmwZtAwAa-109" value="文本摘要" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="840" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SOKK0idRKGvPmwZtAwAa-111" value="倒排序&lt;br&gt;ES" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="920" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SOKK0idRKGvPmwZtAwAa-112" value="源文件&lt;br&gt;HBase" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="920" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SOKK0idRKGvPmwZtAwAa-124" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="SOKK0idRKGvPmwZtAwAa-113" target="SOKK0idRKGvPmwZtAwAa-90">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SOKK0idRKGvPmwZtAwAa-125" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="SOKK0idRKGvPmwZtAwAa-113" target="SOKK0idRKGvPmwZtAwAa-109">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SOKK0idRKGvPmwZtAwAa-126" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="SOKK0idRKGvPmwZtAwAa-113" target="SOKK0idRKGvPmwZtAwAa-112">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SOKK0idRKGvPmwZtAwAa-127" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="SOKK0idRKGvPmwZtAwAa-113" target="SOKK0idRKGvPmwZtAwAa-111">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SOKK0idRKGvPmwZtAwAa-130" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="SOKK0idRKGvPmwZtAwAa-113" target="SOKK0idRKGvPmwZtAwAa-128">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SOKK0idRKGvPmwZtAwAa-132" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="SOKK0idRKGvPmwZtAwAa-113" target="SOKK0idRKGvPmwZtAwAa-131">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SOKK0idRKGvPmwZtAwAa-113" value="存储管理" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="460" y="840" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SOKK0idRKGvPmwZtAwAa-121" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="859.5" as="sourcePoint" />
+            <mxPoint x="350" y="859.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SOKK0idRKGvPmwZtAwAa-128" value="向量&lt;br&gt;Milvus" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="920" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SOKK0idRKGvPmwZtAwAa-131" value="向量服务" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e3c800;strokeColor=#B09500;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="660" y="760" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SOKK0idRKGvPmwZtAwAa-133" value="摘要服务" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e3c800;strokeColor=#B09500;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="660" y="840" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SOKK0idRKGvPmwZtAwAa-135" value="向量服务" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e3c800;strokeColor=#B09500;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="80" y="200" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SOKK0idRKGvPmwZtAwAa-136" value="文本摘要" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e3c800;strokeColor=#B09500;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="200" y="200" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SOKK0idRKGvPmwZtAwAa-137" value="能力层" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="10" y="205" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SOKK0idRKGvPmwZtAwAa-138" value="阅读理解" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e3c800;strokeColor=#B09500;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="320" y="200" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SOKK0idRKGvPmwZtAwAa-139" value="整体框架图" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=2;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="10" y="40" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SOKK0idRKGvPmwZtAwAa-140" value="任务流程图" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=2;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="30" y="400" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SOKK0idRKGvPmwZtAwAa-141" value="爬取任务流程图" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=2;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="25" y="670" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SOKK0idRKGvPmwZtAwAa-142" value="问答流程图" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=2;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="27.5" y="1210" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SOKK0idRKGvPmwZtAwAa-143" value="源文件&lt;br&gt;HBase" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="1240" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SOKK0idRKGvPmwZtAwAa-147" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" source="SOKK0idRKGvPmwZtAwAa-149" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="120" y="1260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SOKK0idRKGvPmwZtAwAa-148" value="Query" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="SOKK0idRKGvPmwZtAwAa-147">
+          <mxGeometry x="-0.1736" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SOKK0idRKGvPmwZtAwAa-149" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1240" width="20" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SOKK0idRKGvPmwZtAwAa-150" value="Mysql" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="80" y="320" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SOKK0idRKGvPmwZtAwAa-151" value="Redis" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="200" y="320" width="80" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
