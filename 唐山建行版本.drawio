@@ -1,0 +1,43 @@
+<mxfile host="Electron" modified="2023-06-10T00:58:13.427Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.1.2 Chrome/106.0.5249.199 Electron/21.4.3 Safari/537.36" etag="y3xk9OOjS04D92KTL8cx" version="21.1.2" type="device">
+  <diagram name="第 1 页" id="2zCfBR8F_2572MBSgM5Y">
+    <mxGraphModel dx="954" dy="593" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="LkfhGZKe3Nc756lZtjto-4" value="LLM精排序&lt;br&gt;模型" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFF33;" vertex="1" parent="1">
+          <mxGeometry x="520" y="40" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LkfhGZKe3Nc756lZtjto-5" value="LLM 建行QA知识" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="360" y="40" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LkfhGZKe3Nc756lZtjto-6" value="LLM 通用模型+银行领域分类" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF8000;" vertex="1" parent="1">
+          <mxGeometry x="200" y="40" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LkfhGZKe3Nc756lZtjto-7" value="LLM 通用模型" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#80FF00;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LkfhGZKe3Nc756lZtjto-13" value="&lt;div&gt;唐山建行V1&lt;/div&gt;&lt;div&gt;建行业务意图（意图分类模型）&lt;/div&gt;&lt;div&gt;业务分流银行领域问题咨询大堂经理（&lt;span style=&quot;background-color: rgb(255, 128, 0);&quot;&gt;robotgptg6-tsjsbank&lt;/span&gt;【有pormpt】）ts_jsbank_qa&lt;/div&gt;&lt;div&gt;通用闲聊（&lt;span style=&quot;background-color: rgb(255, 128, 0);&quot;&gt;robotgptg6-tsjsbank&lt;/span&gt;【无prompt】）&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="160" width="520" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LkfhGZKe3Nc756lZtjto-14" value="&lt;div&gt;唐山建行V2&lt;/div&gt;&lt;div&gt;建行业务意图（意图分类模型）&lt;/div&gt;&lt;div&gt;建行5000QA问题（&lt;/div&gt;&lt;font style=&quot;background-color: rgb(255, 51, 51);&quot;&gt;robotgptg6-tsjsbank-v2&lt;/font&gt;）user_qa&lt;div&gt;通用闲聊（&lt;span style=&quot;text-align: center; background-color: rgb(128, 255, 0);&quot;&gt;robotgptg6&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;）&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="280" width="690" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LkfhGZKe3Nc756lZtjto-15" value="&lt;div&gt;唐山建行V3&lt;/div&gt;&lt;div&gt;建行业务意图（意图分类模型）【&lt;b&gt;废弃】&lt;/b&gt;&lt;/div&gt;&lt;div&gt;建行业务316意图（&lt;font style=&quot;background-color: rgb(255, 255, 51);&quot;&gt;robotgptg6-qa&lt;/font&gt;）&lt;/div&gt;&lt;div&gt;建行5000QA问题（&lt;font color=&quot;#ff3333&quot;&gt;robotgptg6-tsjsbank-v2&lt;/font&gt;&amp;nbsp;？&lt;span style=&quot;background-color: rgb(255, 255, 51);&quot;&gt;robotgptg6-qa&lt;/span&gt;）&lt;/div&gt;&lt;div&gt;通用闲聊（&lt;span style=&quot;background-color: rgb(128, 255, 0);&quot;&gt;robotgptg6&lt;/span&gt;）&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="400" width="520" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LkfhGZKe3Nc756lZtjto-16" value="robotgptg6-tsjsbank" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="210" y="90" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LkfhGZKe3Nc756lZtjto-17" value="robotgptg6-tsjsbank-v2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="370" y="90" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LkfhGZKe3Nc756lZtjto-18" value="robotgptg6" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="80" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LkfhGZKe3Nc756lZtjto-19" value="robotgptg6-qa" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="530" y="90" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
